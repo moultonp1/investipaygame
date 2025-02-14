@@ -5,11 +5,13 @@
   "dependencies": {
     "react": "^18.0.0",
     "react-dom": "^18.0.0",
-    "react-scripts": "5.0.1"
+    "react-scripts": "5.0.1",
+    "serve": "^14.2.0"
   },
   "scripts": {
-    "start": "react-scripts start",
+    "start": "serve -s build",
     "build": "react-scripts build",
+    "dev": "react-scripts start",
     "test": "react-scripts test --passWithNoTests",
     "eject": "react-scripts eject"
   }
